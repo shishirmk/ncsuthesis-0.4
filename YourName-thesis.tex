@@ -1,0 +1,160 @@
+\documentclass[11pt,          % font size: 11pt or 12pt
+               phd,           % degree:    ms or phd
+               onehalfspacing % spacing: onehalfspacing or doublespacing
+               ]{ncsuthesis}
+
+%%----------------------------------------------------------------------------%%
+%%------------------------------ Import Packages -----------------------------%%
+%%----------------------------------------------------------------------------%%
+
+\usepackage{booktabs}  % professionally typeset tables
+\usepackage{amsmath}
+\usepackage{textcomp}  % better copyright sign, among other things
+\usepackage{xcolor}
+\usepackage{lipsum}    % filler text
+\usepackage{subfig}    % composite figures
+
+
+%%----------------------------------------------------------------------------%%
+%%---------------------------- Formatting Options ----------------------------%%
+%%----------------------------------------------------------------------------%%
+%%
+
+%% -------------------------------------------------------------------------- %%
+%% Disposition format -- any titles, headings, section titles
+%%  These formatting commands affect all headings, titles, headings,
+%%  so sizing commands should not be used here.
+%%  Formatting options to consider are
+%%     +  \sffamily - sans serif fonts.  Dispositions are often typeset in
+%%                    sans serif, so this is a good option. 
+%%     +  \rmfamily - serif fonts
+%%     +  \bfseries - bold face
+%\dispositionformat{\sffamily\bfseries}   % bold and sans serif
+\dispositionformat{\bfseries}            % bold and serif
+
+%% -------------------------------------------------------------------------- %%
+%% Formatting for centered headings - Abstract, Dedication, etc. headings
+%%  This is where one might put a sizing command.
+%%  \MakeUppercase can be used to typeset all headings in uppercase.
+\headingformat{\large\MakeUppercase}   % All letters uppercase
+%\headingformat{\large}                % Not all uppercase
+%\headingformat{\Large\scshape}        % Small Caps, used with serif fonts.
+
+%% Typographers recommend using a normal inter-word space after
+%% sentences. TeX's default is to add an wider space, but \frenchspacing
+%% gives a normal spacing. Comment out the following line if you prefer
+%% wider spaces between sentences.
+\frenchspacing
+
+
+%% -------------------------------------------------------------------------- %%
+%%  Optional packages
+%%    A number of compatible packages to improve the look and feel of
+%%    your document are available in the file optional.tex 
+%%    (For example, hyperlinks, fancy chapter headings, and fonts)
+%% To use these options, uncomment the next line and see optional.tex
+%\include{optional}
+
+
+%%----------------------------------------------------------------------------%%
+%%---------------------------- Content Options -------------------------------%%
+%%----------------------------------------------------------------------------%%
+%% Size of committee: 3, 4, 5, or 6 -- this number includes the chair
+\committeesize{3}
+
+%% Members of committee
+%%  Each of the following member commands takes an optional argument
+%%   to specify their role on the committee.
+%%  For co-chairs, use the commands:
+%%      \cochairI{Doug Dodd}
+%%      \cochairII{Chris Cox}
+%%
+\chair{Dr. Robert St. Amant}
+\memberI{Dr. Edward F. Gehringer}
+\memberII{Dr. Christopher G. Healey}
+
+
+%% Student writing thesis, \student{First Middle}{Last}
+\student{Shishir Mahesh}{Kakaraddi} % a full middle name
+%\student{John M.}{Smith} % a middle initial
+
+%% Degree program
+\program{Computer Science}
+
+%% Thesis Title
+%%  Keep in mind, according to ETD guidelines:
+%%    +  Capitalize first letter of important words.
+%%    +  Use inverted pyramid shape if title spans more than one line.
+%%
+%%  Note: To break the title onto multiple lines, use \break instead of \\.
+\thesistitle{Summarizing Micro Blogs}
+
+%% Degree year.  Necessary if your degree year doesn't equal the current year.
+%\degreeyear{1995}
+
+
+%%----------------------------------------------------------------------------%%
+%%---------------------------- Personal Macros -------------------------------%%
+%%----------------------------------------------------------------------------%%
+
+%% A central location to add your favorite macros.
+
+%% A few examples to get you started.
+\newcommand{\uv}[1]{\ensuremath{\mathbf{\hat{#1}}}}
+\newcommand{\bo}{\ensuremath{\boldsymbol{\Omega}}}
+\newcommand{\eref}[1]{Eq.~\ref{#1}}
+\newcommand{\fref}[1]{Figure~\ref{#1}}
+\newcommand{\tref}[1]{Table~\ref{#1}}
+
+%%---------------------------------------------------------------------------%%
+\begin{document}
+
+%%---------------------------------------------------------------------------%%
+\frontmatter
+
+\include{front}
+
+%%---------------------------------------------------------------------------%%
+\mainmatter
+
+\include{Chapter-1/Chapter-1}
+\include{Chapter-2/Chapter-2}
+\include{Chapter-3/Chapter-3}
+
+
+
+%%---------------------------------------------------------------------------%%
+%%  Bibliography 
+
+%%  You can use the bibitem list.
+%\bibliographystyle{unsrt}
+%\begin{thebibliography}{99}
+%\bibitem{cb02}
+%Casella, G. and Berger, R.L. (2002)
+%\newblock {\it Statistical Inference, Second Edition.}
+%Duxbury Press, Belmont, CA.
+%
+%\bibitem{t06}
+%Tsiatis, A.A. (2006)
+%\newblock {\it Semiparametric Theory and Missing Data.}
+%Springer, New York.
+%
+%\end{thebibliography}
+
+%% or use BibTeX
+\bibliography{YourName-thesis}{}
+\bibliographystyle{plain}
+
+%%---------------------------------------------------------------------------%%
+% Appendices
+\appendix
+
+\include{Appendix-A/Appendix-A}
+
+
+
+%%---------------------------------------------------------------------------%%
+\backmatter
+
+
+\end{document}

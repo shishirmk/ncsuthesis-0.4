@@ -1,0 +1,14 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Here is a sample figure\relax }}{7}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Here is a sample figure\relax }}{8}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Here are two floating subfigures\relax }}{8}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{8}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{8}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces This figure has been turned sideways. With large figures, the author must ensure that there are at least two double spaces between the caption and the page number.\relax }}{10}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces A figure at the top of the page.\relax }}{13}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces A figure in the middle of text.\relax }}{15}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces A figure at the bottom of the page.\relax }}{16}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces A figure in the appendix.\relax }}{20}
