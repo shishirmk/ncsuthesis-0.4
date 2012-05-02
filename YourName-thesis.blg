@@ -1,0 +1,17 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: YourName-thesis.aux
+A level-1 auxiliary file: front.aux
+A level-1 auxiliary file: Chapter-1/Chapter-1.aux
+A level-1 auxiliary file: Chapter-2/Chapter-2.aux
+A level-1 auxiliary file: Chapter-3/Chapter-3.aux
+A level-1 auxiliary file: Chapter-4/Chapter-4.aux
+A level-1 auxiliary file: Chapter-5/Chapter-5.aux
+A level-1 auxiliary file: Chapter-6/Chapter-6.aux
+The style file: plainnat.bst
+Database file #1: YourName-thesis.bib
+A bad cross reference---entry "DBLP:conf/icwsm/ChakrabartiP11"
+refers to entry "DBLP:conf/icwsm/2011", which doesn't exist
+A bad cross reference---entry "DBLP:conf/icwsm/OConnorKA10"
+refers to entry "DBLP:conf/icwsm/2010", which doesn't exist
+Warning--I didn't find a database entry for "DBLP:conf/icwsm/2011"
+Warning--I didn't find a database entry for "DBLP:conf/icwsm/2010"
+(There were 2 error messages)

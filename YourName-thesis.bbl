@@ -1,0 +1,89 @@
+\begin{thebibliography}{8}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Chakrabarti and Punera(2011)]{DBLP:conf/icwsm/ChakrabartiP11}
+Deepayan Chakrabarti and Kunal Punera.
+\newblock Event summarization using tweets.
+\newblock In \emph{ICWSM}, 2011.
+
+\bibitem[Gupta et~al.(2010)Gupta, Menon, and
+  Babbar]{Gupta:2010:DNC:1798337.1798433}
+Ujjwal~Das Gupta, Vinay Menon, and Uday Babbar.
+\newblock Detecting the number of clusters during expectation-maximization
+  clustering using information criterion.
+\newblock In \emph{Proceedings of the 2010 Second International Conference on
+  Machine Learning and Computing}, ICMLC '10, pages 169--173, Washington, DC,
+  USA, 2010. IEEE Computer Society.
+\newblock ISBN 978-0-7695-3977-5.
+\newblock \doi{10.1109/ICMLC.2010.47}.
+\newblock URL \url{http://dx.doi.org.prox.lib.ncsu.edu/10.1109/ICMLC.2010.47}.
+
+\bibitem[Nichols et~al.(2012)Nichols, Mahmud, and
+  Drews]{Nichols:2012:SSE:2166966.2166999}
+Jeffrey Nichols, Jalal Mahmud, and Clemens Drews.
+\newblock Summarizing sporting events using twitter.
+\newblock In \emph{Proceedings of the 2012 ACM international conference on
+  Intelligent User Interfaces}, IUI '12, pages 189--198, New York, NY, USA,
+  2012. ACM.
+\newblock ISBN 978-1-4503-1048-2.
+\newblock \doi{10.1145/2166966.2166999}.
+\newblock URL
+  \url{http://doi.acm.org.prox.lib.ncsu.edu/10.1145/2166966.2166999}.
+
+\bibitem[O'Connor et~al.(2010)O'Connor, Krieger, and
+  Ahn]{DBLP:conf/icwsm/OConnorKA10}
+Brendan O'Connor, Michel Krieger, and David Ahn.
+\newblock Tweetmotif: Exploratory search and topic summarization for twitter.
+\newblock In \emph{ICWSM}, 2010.
+
+\bibitem[Pelleg and Moore(2000)]{Pelleg:2000:XEK:645529.657808}
+Dan Pelleg and Andrew~W. Moore.
+\newblock X-means: Extending k-means with efficient estimation of the number of
+  clusters.
+\newblock In \emph{Proceedings of the Seventeenth International Conference on
+  Machine Learning}, ICML '00, pages 727--734, San Francisco, CA, USA, 2000.
+  Morgan Kaufmann Publishers Inc.
+\newblock ISBN 1-55860-707-2.
+\newblock URL
+  \url{http://dl.acm.org.prox.lib.ncsu.edu/citation.cfm?id=645529.657808}.
+
+\bibitem[Sakaki et~al.(2010)Sakaki, Okazaki, and
+  Matsuo]{Sakaki:2010:EST:1772690.1772777}
+Takeshi Sakaki, Makoto Okazaki, and Yutaka Matsuo.
+\newblock Earthquake shakes twitter users: real-time event detection by social
+  sensors.
+\newblock In \emph{Proceedings of the 19th international conference on World
+  wide web}, WWW '10, pages 851--860, New York, NY, USA, 2010. ACM.
+\newblock ISBN 978-1-60558-799-8.
+\newblock \doi{10.1145/1772690.1772777}.
+\newblock URL \url{http://doi.acm.org/10.1145/1772690.1772777}.
+
+\bibitem[Sharifi et~al.(2010)Sharifi, Hutton, and
+  Kalita]{Sharifi:2010:SMA:1857999.1858099}
+Beaux Sharifi, Mark-Anthony Hutton, and Jugal Kalita.
+\newblock Summarizing microblogs automatically.
+\newblock In \emph{Human Language Technologies: The 2010 Annual Conference of
+  the North American Chapter of the Association for Computational Linguistics},
+  HLT '10, pages 685--688, Stroudsburg, PA, USA, 2010. Association for
+  Computational Linguistics.
+\newblock ISBN 1-932432-65-5.
+\newblock URL \url{http://dl.acm.org/citation.cfm?id=1857999.1858099}.
+
+\bibitem[Sriram et~al.(2010)Sriram, Fuhry, Demir, Ferhatosmanoglu, and
+  Demirbas]{Sriram:2010:STC:1835449.1835643}
+Bharath Sriram, Dave Fuhry, Engin Demir, Hakan Ferhatosmanoglu, and Murat
+  Demirbas.
+\newblock Short text classification in twitter to improve information
+  filtering.
+\newblock In \emph{Proceedings of the 33rd international ACM SIGIR conference
+  on Research and development in information retrieval}, SIGIR '10, pages
+  841--842, New York, NY, USA, 2010. ACM.
+\newblock ISBN 978-1-4503-0153-4.
+\newblock \doi{10.1145/1835449.1835643}.
+\newblock URL \url{http://doi.acm.org/10.1145/1835449.1835643}.
+
+\end{thebibliography}
