@@ -1,0 +1,79 @@
+\chapter{System Development}
+\label{chap-four}
+
+The process of extracting summary tweets from a small set of tweets involves three steps.
+
+\begin{enumerate}
+\item Access the micro blogs and compute different features of the data.
+\item Group the tweets into clusters. 
+\item Choose a summary tweet from each cluster
+\end{enumerate}
+
+In this chapter we discuss the approaches we have taken to complete all the three steps.
+
+\section{Computing Features}
+
+In this step all tweets are converted to word vectors of a fixed size. First we convert each tweet to lower case. Then stemming and stop word removal is done. This new form of the tweet is stored as a processed tweet. The processed tweet is used to compute the Inverse Document Frequency (IDF) of each word in the tweet. Each word of the tweet is also tagged with a parts of speech (POS) tagger. At the end of this step we have the processed form of a tweet, we have the IDF values and the POS tags for each word. The next step is to filter the words from the processed tweet, we filter out all the words which are not tagged as nouns or verbs. This helps in making sure only important words are used as candidates for topics. Then we sort them based on IDF. Lower IDF means the word has been used many times in set of tweets hence is a good candidate for clustering. The top n words from the sorted array are considered as the feature vector. The number n is specified by the algorithm. 
+
+\section{Clustering Algorithm}
+
+Each tweet is a feature vector also known as a point for the purposes of explaining the algorithm. The set of feature vectors is an input to the clustering algorithm. The clustering algorithm is a modified version of KMeans clustering algorithm. The KMeans clustering algorithm takes two inputs, number of clusters to be formed and the input points. It returns the clusters. We use KMeans as a part of modified KMeans. In the first iteration of the algorithm input set of feature vectors is split into two clusters. If clusters obtained have a size less than a threshold value then they are added to the final clusters list. If the size of the cluster is bigger than the threshold value then they are added back to the pool of points to be clustered. This way the threshold number for size of a cluster to be accepted as a final cluster acts as a way to control granularity of the cluster.  If i clusters are output in a certain iteration and all have a size greater than the threshold value then in the next iteration we try to split the points into i+1 clusters. This breaks a deadlock in the algorithm and keeps the iterations going till we split the points into granular clusters. An other way to break deadlock when too many words are similar between tweets is to add more detail by increasing the number of words considered for clustering in the feature vector. 
+
+Modified Kmeans (MKmeans) has many advantages. The most important advantage in the context of summarizing tweets is that it gives the user a easy way to understand and control the granularity of the summary returned. The threshold size for a cluster can be controlled by the user as it easy to understand its function. If the threshold size of a cluster is inversely proportional to the number of tweets in the summary. This is because if the threshold is higher then there will be less clusters output by the algorithm there by reducing the number of clusters in the summary.
+
+\lstset{ stepnumber=1, frame=single,basicstyle=\footnotesize,caption={Distance calculation between tweets},language={Ruby}}
+\begin{lstlisting}
+def distance_measure(fv1,fv2,params_length)
+  fv1 = fv1[0..params_length-1]
+  fv2 = fv2[0..params_length-1]
+  temp = Hash.new
+  for word in fv1
+    temp[word] = true
+  end
+  matches = 0
+  for word in fv2
+    if temp[word] == true
+      matches += 1
+    end
+  end
+  return params_length - matches
+end
+\end{lstlisting}
+
+The KMeans algorithm used in the Listing \ref{modified:kmeans} is not randomly initialized but chooses equally spaced points as its centers for the first iteration. This helps in getting consistent results. The KMeans algorithm uses a custom defined distance measure in our implementation. The distance between two feature vectors is calculated in a simple way. The distance function takes three inputs. The two feature vectors and parameter length. The third argument is used to decide how many words from the feature vector are considered for calculation of the distance. The output is the distance between the two feature vectors. This type of distance function ensures we can find distance between two feature vectors which have only nominal values easily.
+
+\lstset{ stepnumber=1, frame=single,basicstyle=\footnotesize,caption={Modified KMeans Algorithm in Ruby},language={Ruby},label={modified:kmeans}}
+\begin{lstlisting}
+def MKmeans(all_points,first_split,params_length,threshold_cluster_size)
+    i = first_split #Number of Clusters to split into
+    while !all_points.empty? #While All Points is not Empty
+      clusters = KMeans(all_points,i,params_length)
+      flag = 0
+      all_points = Array.new
+      for cluster in clusters
+        if cluster.size <= threshold_cluster_size
+          final_clusters << cluster
+          flag = 1
+        else
+          all_points += cluster.points
+        end
+      end
+      if flag == 0
+        i += 1
+      else
+        params_length += 1
+      end
+    end
+end
+\end{lstlisting}
+
+\section{Cluster Summary}
+
+Each cluster from the clustering process represents a topic. It is meaningful to choose one tweet from each cluster as the summary tweet. Collectively they will be representing the different topics from the input. We explored a few ways to choose one sentence from each cluster. We tried three approaches for this, The first approach was to choose the cluster center as the most representative tweet. This ensured that the words that describe the topic are included in the tweet. When we tried this out on few users we saw that clusters centers often tend to be tweets with small number of words. They dint provide much information apart from the topic itself. To solve this problem we chose to pick the tweet with the highest number of words. This was our second approach. We compared the results with users choices we saw that users often dint choose them as summary tweets. This led us to the final approach based on sentiment. We calculated sentiment of a tweet as the sum of absolute value of sentiment of each word in the tweet. Then we choose the tweet with the highest sentiment in the cluster. This correlated better with user choices of summary. 
+
+This completes the system description. To summarize we calculate feature vector for each tweet based on the IDF and sentiment values of each word of the tweet. The feature vectors are clustered using a modified KMeans algorithm. Each cluster represents a granular topic. We choose a tweet from each cluster based on sentiment to form the summary tweets of the micro blog. 
+
+
+
+
+

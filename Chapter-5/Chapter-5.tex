@@ -1,0 +1,92 @@
+\chapter{Evaluation}
+\label{chap-five}
+\newcommand{\ctheaders}[8]%
+{\begin{tabular}{r|ccc||ccc|}
+% Headers:
+ \multicolumn{1}{r}{} & \multicolumn{3}{c}{#1}
+      & \multicolumn{3}{c}{#2} \\ \cline{2-7}
+% Row 1:
+ #3 % \hspace{\cta}
+      & \hspace{\cta} & #5 & \hspace{\cta}
+      & \hspace{\cta} & #7 & \hspace{\cta}\ctstrut \\ \cline{2-7}
+% Row 2:
+ #4 % \hspace{\cta}
+      & \hspace{\cta} & #6 & \hspace{\cta}
+      & \hspace{\cta} & #8 & \hspace{\cta}\ctstrut \\ \cline{2-7}
+\end{tabular}}
+
+\section{Experiment Setup}
+
+\section{Experiment Description}
+We treat the three phases of the experiment as being independent.
+Phase 1 involves the summarization of \#BarackObama tweets, Phase 2
+the summarization of \#MittRomney tweets, and Phase 3 the
+summarization of a participant-chosen set of tweets from different
+Twitter users.
+
+User ratings are discrete-valued data, which means that some common
+types of summary and inferential statistics used for continuous data
+are inappropriate.  We adopt the conventions of HCI research in
+handling Likert scale data, using the median rather than the means as
+a measure of central tendency, and using non-parametric tests for
+comparisons.
+
+Bar charts of the MKM and SAT summaries for each of the three
+experiments are shown below.  The median of each distribution is shown
+in Table~\ref{tab:modes}.
+
+\section{Results}
+
+
+\begin{table}
+\begin{center}
+\begin{tabular}{|l|llllll|llllll|}
+\hline
+& \multicolumn{3}{c}{MKM\slash G} & \multicolumn{3}{c|}{SAT\slash G} & \multicolumn{3}{|c}{MKM\slash T} & \multicolumn{3}{c|}{SAT\slash T} \\
+\hline
+Phase 1: \#BarackObama      & & 4    & & & 3.75 & & & 4 & & & 3.75 & \\
+Phase 2: \#MittRomney       & & 4    & & & 3    & & & 4 & & & 3  & \\
+Phase 3: (participant-chosen) & & 3.5  & & & 3    & & & 3.5 & & & 3  & \\
+\hline
+\end{tabular}
+\end{center}
+\caption{Medians}
+\label{tab:modes}
+\end{table}
+
+The summaries in Table~\ref{tab:modes} suggest that MKM outperforms
+SAT in each of the three phases.  We can go further by analyzing
+the differences between the ratings of two summaries of a specific
+Twitter user, per experiment participant.  
+
+We use a Wilcoxon signed-rank test for comparing medians: MKM versus
+SAT for the General condition, and MKM versus SAT for the Topic
+condition.  The non-parametric Wilcoxon test is designed for
+continuous data but is applied in practice to discrete ordinal data as
+well.  The hypothesis we are testing is whether there is a significant
+effect of Algorithm (MKM or SAT) on the medians of the distributions
+in each condition, specifically whether MKM $>$ SAT.
+
+For Phase 1, the \#BarackObama dataset, a Wilcoxon test shows no
+significant effect of Algorithm in the General condition ($W = 12.0, p
+= 0.12$), and similarly no significant effect in the General condition
+($W = 11.0, p = 0.18$).
+
+For Phase 2, the \#MittRomney dataset, a Wilcoxon test shows that
+there is a significant effect of Algorithm in both the General
+condition ($W = 27.5, p = 0.009$) and the Topic condition ($W = 25.5,
+p = 0.01$).
+
+For Phase 3, the dataset including participant-chosen Twitter users, a
+Wilcoxon test shows that there is a significant effect of Algorithm in
+both the General condition ($W = 20.0, p = 0.024$) and the Topic
+condition ($W = 17.0, p = 0.008$).
+
+Alternative tests, for which the user ratings are encoded in
+categorical form, show comparable results.  
+
+For example, we can reduce the rankings into three categories, in
+which MKM $<$ SAT, MKM $=$ SAT, or MKM $>$ SAT.  A $\chi^2$ test can
+then be used to test the hypothesis that the probability of MKM $<$
+SAT is equal to the probability of MKM $>$ SAT.  This hypothesis is
+rejected in all the same cases as above.

@@ -1,6 +1,6 @@
-\documentclass[11pt,          % font size: 11pt or 12pt
-               phd,           % degree:    ms or phd
-               onehalfspacing % spacing: onehalfspacing or doublespacing
+\documentclass[12pt,          % font size: 11pt or 12pt
+               ms,           % degree:    ms or phd
+               doublespacing % spacing: onehalfspacing or doublespacing
                ]{ncsuthesis}
 
 %%----------------------------------------------------------------------------%%
@@ -13,6 +13,7 @@
 \usepackage{xcolor}
 \usepackage{lipsum}    % filler text
 \usepackage{subfig}    % composite figures
+\usepackage{listings}
 
 
 %%----------------------------------------------------------------------------%%
@@ -87,7 +88,7 @@
 %%    +  Use inverted pyramid shape if title spans more than one line.
 %%
 %%  Note: To break the title onto multiple lines, use \break instead of \\.
-\thesistitle{Summarizing Micro Blogs}
+\thesistitle{A Comparison of Summarization Techniques for Small Sets of Micro Blogs}
 
 %% Degree year.  Necessary if your degree year doesn't equal the current year.
 %\degreeyear{1995}
@@ -120,7 +121,9 @@
 \include{Chapter-1/Chapter-1}
 \include{Chapter-2/Chapter-2}
 \include{Chapter-3/Chapter-3}
-
+\include{Chapter-4/Chapter-4}
+\include{Chapter-5/Chapter-5}
+\include{Chapter-6/Chapter-6}
 
 
 %%---------------------------------------------------------------------------%%
@@ -147,9 +150,8 @@
 
 %%---------------------------------------------------------------------------%%
 % Appendices
-\appendix
-
-\include{Appendix-A/Appendix-A}
+%\appendix
+%\include{Appendix-A/Appendix-A}
 
 
 

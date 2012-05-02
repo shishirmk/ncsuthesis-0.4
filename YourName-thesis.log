@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2011.8.17)  18 APR 2012 16:04
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2011.8.17)  2 MAY 2012 01:01
 entering extended mode
 **YourName-thesis.tex
-(C:\Users\Shishir\ncsuthesis-0.4\YourName-thesis.tex
+("C:\Users\Shishir\Masters Thesis\ncsuthesis-0.4\YourName-thesis.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -13,13 +13,13 @@ an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese,
 romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
 sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
 senglishmax, welsh, loaded.
-(C:\Users\Shishir\ncsuthesis-0.4\ncsuthesis.cls
+("C:\Users\Shishir\Masters Thesis\ncsuthesis-0.4\ncsuthesis.cls"
 Document Class: ncsuthesis 2012/01/26 v0.4 NC State ETD conformant thesis class
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\book.cls"
 Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\bk11.clo"
-File: bk11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\bk12.clo"
+File: bk12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@chapter=\count80
@@ -217,7 +217,7 @@ Package: afterpage 1995/10/27 v1.08 After-Page Package (DPC)
 \AP@partial=\box27
 \AP@footins=\box28
 )
-(C:\Users\Shishir\ncsuthesis-0.4\changepage.sty
+("C:\Users\Shishir\Masters Thesis\ncsuthesis-0.4\changepage.sty"
 Package: changepage 2009/10/20 v1.0c check page and change page layout
 \c@cp@cntr=\count99
 \cp@tempcnt=\count100
@@ -239,7 +239,7 @@ Package caption Info: rotating package is loaded.
 )
 \appendixwidth=\skip99
 
-(C:\Users\Shishir\ncsuthesis-0.4\totcount.sty
+("C:\Users\Shishir\Masters Thesis\ncsuthesis-0.4\totcount.sty"
 Package: totcount 2009/07/09 v1.1 package for gettingthe total value of LaTeX c
 ounters
 )
@@ -439,46 +439,73 @@ Package: subfig 2005/06/28 ver: 1.3 subfig package
 \sf@top=\skip106
 \sf@bottom=\skip107
 )
-(C:\Users\Shishir\ncsuthesis-0.4\YourName-thesis.aux
-(C:\Users\Shishir\ncsuthesis-0.4\front.aux)
-(C:\Users\Shishir\ncsuthesis-0.4\Chapter-1/Chapter-1.aux)
-(C:\Users\Shishir\ncsuthesis-0.4\Chapter-2/Chapter-2.aux)
-(C:\Users\Shishir\ncsuthesis-0.4\Chapter-3/Chapter-3.aux)
-(C:\Users\Shishir\ncsuthesis-0.4\Appendix-A/Appendix-A.aux))
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 110.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 110.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.sty"
+\lst@mode=\count125
+\lst@gtempboxa=\box31
+\lst@token=\toks23
+\lst@length=\count126
+\lst@currlwidth=\dimen144
+\lst@column=\count127
+\lst@pos=\count128
+\lst@lostspace=\dimen145
+\lst@width=\dimen146
+\lst@newlines=\count129
+\lst@lineno=\count130
+\lst@maxwidth=\dimen147
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+\c@lstnumber=\count131
+\lst@skipnumbers=\count132
+\lst@framebox=\box32
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.cfg"
+File: listings.cfg 2007/02/22 1.4 listings configuration
+))
+Package: listings 2007/02/22 1.4 (Carsten Heinz)
+
+("C:\Users\Shishir\Masters Thesis\ncsuthesis-0.4\YourName-thesis.aux"
+("C:\Users\Shishir\Masters Thesis\ncsuthesis-0.4\front.aux")
+("C:\Users\Shishir\Masters Thesis\ncsuthesis-0.4\Chapter-1/Chapter-1.aux")
+("C:\Users\Shishir\Masters Thesis\ncsuthesis-0.4\Chapter-2/Chapter-2.aux")
+("C:\Users\Shishir\Masters Thesis\ncsuthesis-0.4\Chapter-3/Chapter-3.aux")
+("C:\Users\Shishir\Masters Thesis\ncsuthesis-0.4\Chapter-4/Chapter-4.aux")
+("C:\Users\Shishir\Masters Thesis\ncsuthesis-0.4\Chapter-5/Chapter-5.aux")
+("C:\Users\Shishir\Masters Thesis\ncsuthesis-0.4\Chapter-6/Chapter-6.aux"))
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 111.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 111.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    ... okay on input line 111.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count125
-\scratchdimen=\dimen144
-\scratchbox=\box31
-\nofMPsegments=\count126
-\nofMParguments=\count127
-\everyMPshowfont=\toks23
-\MPscratchCnt=\count128
-\MPscratchDim=\dimen145
-\MPnumerator=\count129
-\makeMPintoPDFobject=\count130
-\everyMPtoPDFconversion=\toks24
+\scratchcounter=\count133
+\scratchdimen=\dimen148
+\scratchbox=\box33
+\nofMPsegments=\count134
+\nofMParguments=\count135
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count136
+\MPscratchDim=\dimen149
+\MPnumerator=\count137
+\makeMPintoPDFobject=\count138
+\everyMPtoPDFconversion=\toks25
 )
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -493,18 +520,18 @@ LaTeX Font Info:    ... okay on input line 110.
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
 * \textwidth=451.68752pt
-* \textheight=607.59671pt
+* \textheight=591.65172pt
 * \oddsidemargin=18.0675pt
 * \evensidemargin=18.0675pt
 * \topmargin=-31.8738pt
 * \headheight=12.0pt
 * \headsep=19.8738pt
-* \topskip=11.0pt
-* \footskip=42.8333pt
-* \marginparwidth=62.0pt
+* \topskip=12.0pt
+* \footskip=58.77829pt
+* \marginparwidth=47.0pt
 * \marginparsep=7.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -516,9 +543,11 @@ LaTeX Font Info:    ... okay on input line 110.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package 1.2 or 1.3 is loaded.
+Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@ncsu@appendixtocdepth=\count131
-(C:\Users\Shishir\ncsuthesis-0.4\front.tex
+\c@ncsu@appendixtocdepth=\count139
+\c@lstlisting=\count140
+("C:\Users\Shishir\Masters Thesis\ncsuthesis-0.4\front.tex"
 Underfull \hbox (badness 10000) in paragraph at lines 2--2
 
  []
@@ -529,171 +558,218 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--2
 
 
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [1
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [1
 
 ] [1
 
 ] [2
 
 
+] [3
+
+
 ]
-[3
+[4
 
 
-] [4
-
-
-] (C:\Users\Shishir\ncsuthesis-0.4\YourName-thesis.toc)
+] ("C:\Users\Shishir\Masters Thesis\ncsuthesis-0.4\YourName-thesis.toc")
 \tf@toc=\write3
- [5
 
-]
-(C:\Users\Shishir\ncsuthesis-0.4\YourName-thesis.lot)
+[5
+
+] ("C:\Users\Shishir\Masters Thesis\ncsuthesis-0.4\YourName-thesis.lot")
 \tf@lot=\write4
- [6
 
-]
-(C:\Users\Shishir\ncsuthesis-0.4\YourName-thesis.lof)
+[6
+
+] ("C:\Users\Shishir\Masters Thesis\ncsuthesis-0.4\YourName-thesis.lof")
 \tf@lof=\write5
- [7
 
-])
-(C:\Users\Shishir\ncsuthesis-0.4\Chapter-1/Chapter-1.tex
+[7
+
+]) ("C:\Users\Shishir\Masters Thesis\ncsuthesis-0.4\Chapter-1/Chapter-1.tex"
 Chapter 1.
-
-LaTeX Warning: Citation `einstein1935particle' on page 1 undefined on input lin
-e 6.
-
-
-LaTeX Warning: Citation `golub1996matrix' on page 1 undefined on input line 7.
-
-
-LaTeX Warning: Citation `larsen1974asymptotic' on page 1 undefined on input lin
-e 8.
-
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
 [1
 
 
 
 
 
-] [2]) [3] (C:\Users\Shishir\ncsuthesis-0.4\Chapter-2/Chapter-2.tex
+]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+) [2]
+("C:\Users\Shishir\Masters Thesis\ncsuthesis-0.4\Chapter-2/Chapter-2.tex"
 Chapter 2.
-[4
+[3
 
 
 
-] [5] [6] <Chapter-2/figs/pie.pdf, id=64, 289.08pt x 289.08pt>
-File: Chapter-2/figs/pie.pdf Graphic file (type pdf)
-
-<use Chapter-2/figs/pie.pdf>
-Package pdftex.def Info: Chapter-2/figs/pie.pdf used on input line 67.
-(pdftex.def)             Requested size: 271.01526pt x 271.02946pt.
-
-<Chapter-2/figs/color.pdf, id=65, 578.16pt x 433.62pt>
-File: Chapter-2/figs/color.pdf Graphic file (type pdf)
-
-<use Chapter-2/figs/color.pdf>
-Package pdftex.def Info: Chapter-2/figs/color.pdf used on input line 74.
-(pdftex.def)             Requested size: 271.01526pt x 203.25887pt.
-File: Chapter-2/figs/pie.pdf Graphic file (type pdf)
- <use Chapter-2/figs/pie.pdf>
-Package pdftex.def Info: Chapter-2/figs/pie.pdf used on input line 83.
-(pdftex.def)             Requested size: 180.67224pt x 180.67014pt.
-File: Chapter-2/figs/color.pdf Graphic file (type pdf)
-
-<use Chapter-2/figs/color.pdf>
-Package pdftex.def Info: Chapter-2/figs/color.pdf used on input line 86.
-(pdftex.def)             Requested size: 180.67224pt x 135.4993pt.
- [7
-
-
-
- <C:/Users/Shishir/ncsuthesis-0.4/Chapter-2/figs/pie.pdf>] [8 <C:/Users/Shishir
-/ncsuthesis-0.4/Chapter-2/figs/color.pdf>]
-[9] <Chapter-2/figs/sine.pdf, id=153, 578.16pt x 433.62pt>
-File: Chapter-2/figs/sine.pdf Graphic file (type pdf)
-
-<use Chapter-2/figs/sine.pdf>
-Package pdftex.def Info: Chapter-2/figs/sine.pdf used on input line 97.
-(pdftex.def)             Requested size: 408.85422pt x 306.64168pt.
- [10 <C:/Users/Shishir/ncsuthesis-0.4/Chapter-2/figs/sine.pdf>]) [11
-
-
-
-] (C:\Users\Shishir\ncsuthesis-0.4\Chapter-3/Chapter-3.tex
+] [4] [5]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ò in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+ [6]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ò in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+ [7]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ò in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+) [8]
+("C:\Users\Shishir\Masters Thesis\ncsuthesis-0.4\Chapter-3/Chapter-3.tex"
 Chapter 3.
-[12
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+[9
 
 
 
 ]
-File: Chapter-2/figs/color.pdf Graphic file (type pdf)
- <use Chapter-2/figs/color.pdf>
-Package pdftex.def Info: Chapter-2/figs/color.pdf used on input line 9.
-(pdftex.def)             Requested size: 271.01526pt x 203.25887pt.
- [13] [14]
-File: Chapter-2/figs/color.pdf Graphic file (type pdf)
- <use Chapter-2/figs/color.pdf>
-Package pdftex.def Info: Chapter-2/figs/color.pdf used on input line 18.
-(pdftex.def)             Requested size: 271.01526pt x 203.25887pt.
-File: Chapter-2/figs/color.pdf Graphic file (type pdf)
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+ [10]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+ [11] [12]) [13]
+("C:\Users\Shishir\Masters Thesis\ncsuthesis-0.4\Chapter-4/Chapter-4.tex"
+Chapter 4.
+[14
 
-<use Chapter-2/figs/color.pdf>
-Package pdftex.def Info: Chapter-2/figs/color.pdf used on input line 25.
-(pdftex.def)             Requested size: 271.01526pt x 203.25887pt.
- [15] [16]) [17]
-No file YourName-thesis.bbl.
-[18
 
 
-] (C:\Users\Shishir\ncsuthesis-0.4\Appendix-A/Appendix-A.tex
-Appendix A.
+] [15] ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstlang2.sty"
+File: lstlang2.sty 2004/09/05 1.3 listings language file
+) [16]
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 54.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omlcmr.fd"
+File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 54.
+ [17]) [18]
+("C:\Users\Shishir\Masters Thesis\ncsuthesis-0.4\Chapter-5/Chapter-5.tex"
+Chapter 5.
 [19
 
 
 
-] <Chapter-2/figs/threed.pdf, id=246, 578.16pt x 433.62pt>
-File: Chapter-2/figs/threed.pdf Graphic file (type pdf)
+] [20]) [21]
+("C:\Users\Shishir\Masters Thesis\ncsuthesis-0.4\Chapter-6/Chapter-6.tex"
+Chapter 6.
+) [22
 
-<use Chapter-2/figs/threed.pdf>
-Package pdftex.def Info: Chapter-2/figs/threed.pdf used on input line 9.
-(pdftex.def)             Requested size: 271.01526pt x 203.25887pt.
- [20 <C:/Users/Shishir/ncsuthesis-0.4/Chapter-2/figs/threed.pdf>] [21]) [22]
-(C:\Users\Shishir\ncsuthesis-0.4\YourName-thesis.aux
-(C:\Users\Shishir\ncsuthesis-0.4\front.aux)
-(C:\Users\Shishir\ncsuthesis-0.4\Chapter-1/Chapter-1.aux)
-(C:\Users\Shishir\ncsuthesis-0.4\Chapter-2/Chapter-2.aux)
-(C:\Users\Shishir\ncsuthesis-0.4\Chapter-3/Chapter-3.aux)
-(C:\Users\Shishir\ncsuthesis-0.4\Appendix-A/Appendix-A.aux))
 
-LaTeX Warning: There were undefined references.
 
- ) 
+]
+No file YourName-thesis.bbl.
+("C:\Users\Shishir\Masters Thesis\ncsuthesis-0.4\YourName-thesis.aux"
+("C:\Users\Shishir\Masters Thesis\ncsuthesis-0.4\front.aux")
+("C:\Users\Shishir\Masters Thesis\ncsuthesis-0.4\Chapter-1/Chapter-1.aux")
+("C:\Users\Shishir\Masters Thesis\ncsuthesis-0.4\Chapter-2/Chapter-2.aux")
+("C:\Users\Shishir\Masters Thesis\ncsuthesis-0.4\Chapter-3/Chapter-3.aux")
+("C:\Users\Shishir\Masters Thesis\ncsuthesis-0.4\Chapter-4/Chapter-4.aux")
+("C:\Users\Shishir\Masters Thesis\ncsuthesis-0.4\Chapter-5/Chapter-5.aux")
+("C:\Users\Shishir\Masters Thesis\ncsuthesis-0.4\Chapter-6/Chapter-6.aux")) ) 
 Here is how much of TeX's memory you used:
- 5714 strings out of 494045
- 83739 string characters out of 3145963
- 249838 words of memory out of 3000000
- 8856 multiletter control sequences out of 15000+200000
- 13399 words of font info for 47 fonts, out of 3000000 for 9000
+ 7043 strings out of 494045
+ 104453 string characters out of 3145963
+ 286654 words of memory out of 3000000
+ 10159 multiletter control sequences out of 15000+200000
+ 10321 words of font info for 37 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 43i,14n,48p,511b,422s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Shishir\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi60
-0\tcrm1095.pk><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cme
-x10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi1
-0.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.p
-fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/
-Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Prog
+ 43i,9n,45p,2466b,1185s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <
+C:\Users\Shishir\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tc
+rm1200.pk><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmb
+x10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx1
+2.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.
+pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pf
+b><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><
+C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/
+Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Prog
 ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program F
-iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Fil
-es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on YourName-thesis.pdf (32 pages, 426482 bytes).
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on YourName-thesis.pdf (31 pages, 163345 bytes).
 PDF statistics:
- 310 PDF objects out of 1000 (max. 8388607)
+ 143 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
