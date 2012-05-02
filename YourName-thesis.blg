@@ -7,6 +7,8 @@ A level-1 auxiliary file: Chapter-4/Chapter-4.aux
 A level-1 auxiliary file: Chapter-5/Chapter-5.aux
 A level-1 auxiliary file: Chapter-6/Chapter-6.aux
 The style file: plainnat.bst
+A level-1 auxiliary file: Appendix-A/Appendix-A.aux
+A level-1 auxiliary file: Appendix-A/Appendix-B.aux
 Database file #1: YourName-thesis.bib
 A bad cross reference---entry "DBLP:conf/icwsm/ChakrabartiP11"
 refers to entry "DBLP:conf/icwsm/2011", which doesn't exist

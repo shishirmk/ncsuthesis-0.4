@@ -1,2 +1,20 @@
 \chapter{Conclusion}
 \label{chap-six}
+
+In this chapter we discuss the features of modified KMeans algorithm. We discuss the advantages and disadvantages of the algorithm. We also discuss some of the improvements that are possible. There are many different opportunities to pursue in our work. We discuss about them in the future work section.
+
+\section{Modified KMeans Discussion}
+
+Modified KMeans algorithm provided better results in our study. It also provides easy to understand parameters which makes the algorithm interactive and customizable to to users needs. The algorithm has a worst case time complexity of $O(KN^{3})$ where $N^{3}$ comes from the KMeans calls and 'K' will be the number of clusters formed by the algorithm. This can be greatly reduced to almost just $N^{2}$ using memoization. We can reduce a lot of computations by storing the results of distance between all possible pairs of tweets. The distance function we provide can be used without trying to compute word vector each time as it uses nominal variables to compute the distance. However theoretically any other distance metric can be used too.
+
+There are different customizations to the algorithm we havent explored yet. For example we have not tried a different distance algorithm. It would be good to see how this affects the output of the modified KMeans algorithm. We see that granularity increases if we decrease the threshold number of tweets in a cluster in our case. However we havent formally tested how the granularity changes with the threshold. The number of word to consider in the feature vector too depends on the length of the micro blog. We saw with experimentation that in our case starting with three words from the feature vector gives good results for tweets. Potentially it should be possible to use the same algorithm for more bigger blogs  too by changing the number of words to be considered to start with in the feature vector. We havent explored this part yet. 
+
+In our evaluation we found that perception of granularity does change among users. We see from the comments provided by the users that some of them expected clusters with a single tweet also should be added. While others believed that the summary chosen by our algorithm too was elaborate. 
+
+\section{Future Work}
+
+All three steps of our system can be improved in different ways. The computation of features can be improved by adding more features like named entity recognition. This information could be useful when we try to choose words for the word vector and while finding distance between two vectors. We have used the dictionary approach for calculating sentiment for tweets. This approach is found to be better than using complex machine learning approaches according to \citet{DBLP:journals/corr/abs-0911-1583} for calculating sentiment. However since sentiment is so central to our approach it would be interesting to try other approaches to calculate sentiment. We could calculate the distance between words better than direct text matching if we used word net distance measures dicussed in [citation needed]. 
+
+To make our clustering algorithm more precise, We could modify the algorithm to assign tweets to soft clusters. Then we could probably be able to recognize at what granularity the clusters become very similar. This impacts our assumption that each cluster groups tweets about a different topic. Since granularity can be controlled by the user this step would be necessary. 
+
+Choosing a summary tweet from a cluster can be done in many ways. We tried to separate the tasks between the computer and the user in our approach. We found that it would be good to provide a set of summary tweets and assist the user to create a textual summary. There are techniques to create textual summary from similar sentences \cite{Barzilay:1999:IFC:1034678.1034760}. It would be interesting to explore that area too. 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2011.8.17)  2 MAY 2012 03:54
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2011.8.17)  2 MAY 2012 13:54
 entering extended mode
 **C:/Users/Shishir/Masters*Thesis/ncsuthesis-0.4/YourName-thesis.tex
 ("C:/Users/Shishir/Masters Thesis/ncsuthesis-0.4/YourName-thesis.tex"
@@ -478,7 +478,9 @@ Package: listings 2007/02/22 1.4 (Carsten Heinz)
 ("C:\Users\Shishir\Masters Thesis\ncsuthesis-0.4\Chapter-3/Chapter-3.aux")
 ("C:\Users\Shishir\Masters Thesis\ncsuthesis-0.4\Chapter-4/Chapter-4.aux")
 ("C:\Users\Shishir\Masters Thesis\ncsuthesis-0.4\Chapter-5/Chapter-5.aux")
-("C:\Users\Shishir\Masters Thesis\ncsuthesis-0.4\Chapter-6/Chapter-6.aux"))
+("C:\Users\Shishir\Masters Thesis\ncsuthesis-0.4\Chapter-6/Chapter-6.aux")
+("C:\Users\Shishir\Masters Thesis\ncsuthesis-0.4\Appendix-A/Appendix-A.aux")
+("C:\Users\Shishir\Masters Thesis\ncsuthesis-0.4\Appendix-A/Appendix-B.aux"))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 113.
 LaTeX Font Info:    ... okay on input line 113.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 113.
@@ -608,15 +610,6 @@ Missing character: There is no ú in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
 [1
 
 
@@ -630,36 +623,17 @@ Missing character: There is no ú in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
-) [2]
+ [2]) [3]
 ("C:\Users\Shishir\Masters Thesis\ncsuthesis-0.4\Chapter-2/Chapter-2.tex"
 Chapter 2.
-[3
+[4
 
 
 
-] [4] [5]
+] [5] [6]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ò in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
- [6]
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ò in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
@@ -676,13 +650,23 @@ Missing character: There is no ô in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
-) [8]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+ [8]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ò in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+) [9]
 ("C:\Users\Shishir\Masters Thesis\ncsuthesis-0.4\Chapter-3/Chapter-3.tex"
 Chapter 3.
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
-[9
+[10
 
 
 
@@ -705,22 +689,22 @@ Missing character: There is no ú in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ù in font cmr12!
- [10]
+ [11]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
- [11] [12]) [13]
+ [12] [13]) [14]
 ("C:\Users\Shishir\Masters Thesis\ncsuthesis-0.4\Chapter-4/Chapter-4.tex"
 Chapter 4.
-[14
+[15
 
 
 
-] [15] ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+] [16] ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2004/09/05 1.3 listings language file
 ) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstlang2.sty"
 File: lstlang2.sty 2004/09/05 1.3 listings language file
-) [16]
+) [17]
 LaTeX Font Info:    Try loading font information for OML+cmr on input line 54.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omlcmr.fd"
@@ -728,7 +712,7 @@ File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 54.
- [17]) [18]
+ [18]) [19]
 ("C:\Users\Shishir\Masters Thesis\ncsuthesis-0.4\Chapter-5/Chapter-5.tex"
 Chapter 5.
 
@@ -737,96 +721,196 @@ Overfull \hbox (4.91888pt too wide) in paragraph at lines 18--19
 thm called SUMMALLTEXT[[]].
  []
 
-[19
+[20
 
 
 
-] <Chapter-5/figs/evaluation_app_arch.jpg, id=98, 796.9775pt x 557.08125pt>
+]
+<Chapter-5/figs/evaluation_app_arch.jpg, id=101, 796.9775pt x 557.08125pt>
 File: Chapter-5/figs/evaluation_app_arch.jpg Graphic file (type jpg)
 
 <use Chapter-5/figs/evaluation_app_arch.jpg>
 Package pdftex.def Info: Chapter-5/figs/evaluation_app_arch.jpg used on input l
 ine 25.
 (pdftex.def)             Requested size: 406.516pt x 284.15018pt.
- [20 <C:/Users/Shishir/Masters Thesis/ncsuthesis-0.4/Chapter-5/figs/evaluation_
-app_arch.jpg>] [21] [22]) [23]
-("C:\Users\Shishir\Masters Thesis\ncsuthesis-0.4\Chapter-6/Chapter-6.tex"
+ [21 <C:/Users/Shishir/Masters Thesis/ncsuthesis-0.4/Chapter-5/figs/evaluation_
+app_arch.jpg>] [22] [23] [24])
+[25] ("C:\Users\Shishir\Masters Thesis\ncsuthesis-0.4\Chapter-6/Chapter-6.tex"
 Chapter 6.
-) [24
+[26
 
 
 
-] ("C:\Users\Shishir\Masters Thesis\ncsuthesis-0.4\YourName-thesis.bbl"
-Underfull \hbox (badness 1320) in paragraph at lines 27--36
+] [27]
+
+Package natbib Warning: Citation `Barzilay:1999:IFC:1034678.1034760' on page 28
+ undefined on input line 20.
+
+) [28] ("C:\Users\Shishir\Masters Thesis\ncsuthesis-0.4\YourName-thesis.bbl"
+Underfull \hbox (badness 1320) in paragraph at lines 34--43
 []\OT1/cmr/m/n/12 Jeffrey Nichols, Jalal Mah-mud, and Clemens Drews.  Sum-ma-ri
 z-ing sport-ing
  []
 
 
-Underfull \hbox (badness 1694) in paragraph at lines 67--75
+Underfull \hbox (badness 1694) in paragraph at lines 74--82
 []\OT1/cmr/m/n/12 Beaux Shar-ifi, Mark-Anthony Hut-ton, and Ju-gal Kalita.  Sum
 -ma-riz-ing mi-
  []
 
 
-Underfull \hbox (badness 1043) in paragraph at lines 67--75
+Underfull \hbox (badness 1043) in paragraph at lines 74--82
 \OT1/cmr/m/n/12 croblogs au-to-mat-i-cally.  In \OT1/cmr/m/it/12 Hu-man Lan-gua
 ge Tech-nolo-gies: The 2010 An-nual
  []
 
 
-Underfull \hbox (badness 2351) in paragraph at lines 67--75
+Underfull \hbox (badness 2351) in paragraph at lines 74--82
 \OT1/cmr/m/it/12 Con-fer-ence of the North Amer-i-can Chap-ter of the As-so-ci-
 a-tion for Com-pu-
  []
 
 
-Underfull \hbox (badness 1888) in paragraph at lines 67--75
+Underfull \hbox (badness 1888) in paragraph at lines 74--82
 \OT1/cmr/m/it/12 ta-tional Lin-guis-tics\OT1/cmr/m/n/12 , HLT '10, pages 685--6
 88, Strouds-burg, PA, USA, 2010.
  []
 
 
-Underfull \hbox (badness 5133) in paragraph at lines 67--75
+Underfull \hbox (badness 5133) in paragraph at lines 74--82
 \OT1/cmr/m/n/12 As-so-ci-a-tion for Com-pu-ta-tional Lin-guis-tics.  ISBN 1-932
 432-65-5.  URL
  []
 
-[25
+[29
 
 
-]) [26] ("C:\Users\Shishir\Masters Thesis\ncsuthesis-0.4\YourName-thesis.aux" (
-"C:\Users\Shishir\Masters Thesis\ncsuthesis-0.4\front.aux")
+]) [30] [31
+
+]
+("C:\Users\Shishir\Masters Thesis\ncsuthesis-0.4\Appendix-A/Appendix-A.tex"
+Appendix A.
+) [32
+
+
+
+]
+("C:\Users\Shishir\Masters Thesis\ncsuthesis-0.4\Appendix-A/Appendix-B.tex"
+Appendix B.
+
+Overfull \hbox (2.83693pt too wide) in paragraph at lines 3--4
+\OT1/cmr/m/n/12 "a" ,"able" ,"about" ,"above" ,"abst" ,"ac-cor-dance" ,"ac-cord
+-ing" ,"ac-cord-ingly" ,"across"
+ []
+
+
+Overfull \hbox (5.12163pt too wide) in paragraph at lines 3--4
+\OT1/cmr/m/n/12 ing" ,"be-lieve" ,"be-low" ,"be-side" ,"be-sides" ,"be-tween" ,
+"be-yond" ,"biol" ,"both" ,"brief"
+ []
+
+
+Overfull \hbox (10.99657pt too wide) in paragraph at lines 3--4
+\OT1/cmr/m/n/12 tains" ,"could" ,"couldnt" ,"d" ,"date" ,"did" ,"didn't" ,"dif-
+fer-ent" ,"do" ,"does" ,"doesn't"
+ []
+
+
+Overfull \hbox (2.37999pt too wide) in paragraph at lines 3--4
+\OT1/cmr/m/n/12 ery-one" ,"ev-ery-thing" ,"ev-ery-where" ,"ex" ,"ex-cept" ,"f" 
+,"far" ,"few" ,"ff" ,"fifth" ,"first"
+ []
+
+
+Overfull \hbox (9.69102pt too wide) in paragraph at lines 3--4
+\OT1/cmr/m/n/12 ,"once" ,"one" ,"ones" ,"only" ,"onto" ,"or" ,"ord" ,"other" ,"
+oth-ers" ,"oth-er-wise" ,"ought"
+ []
+
+
+Overfull \hbox (6.10078pt too wide) in paragraph at lines 3--4
+\OT1/cmr/m/n/12 ,"present" ,"pre-vi-ously" ,"pri-mar-ily" ,"prob-a-bly" ,"promp
+tly" ,"proud" ,"pro-vides" ,"put"
+ []
+
+
+Overfull \hbox (1.66194pt too wide) in paragraph at lines 3--4
+\OT1/cmr/m/n/12 ,"shown" ,"showns" ,"shows" ,"sig-nif-i-cant" ,"sig-nif-i-cantl
+y" ,"sim-i-lar" ,"sim-i-larly" ,"since"
+ []
+
+
+Overfull \hbox (4.86052pt too wide) in paragraph at lines 3--4
+\OT1/cmr/m/n/12 ,"six" ,"slightly" ,"so" ,"some" ,"some-body" ,"some-how" ,"som
+e-one" ,"somethan" ,"some-
+ []
+
+
+Overfull \hbox (10.08269pt too wide) in paragraph at lines 3--4
+\OT1/cmr/m/n/12 ,"that" ,"that'll" ,"thats" ,"that've" ,"the" ,"their" ,"theirs
+" ,"them" ,"them-selves" ,"then"
+ []
+
+
+Overfull \hbox (13.21599pt too wide) in paragraph at lines 3--4
+\OT1/cmr/m/n/12 ,"thereof" ,"therere" ,"theres" ,"thereto" ,"there-upon" ,"ther
+e've" ,"these" ,"they" ,"theyd"
+ []
+
+
+Overfull \hbox (2.0536pt too wide) in paragraph at lines 3--4
+\OT1/cmr/m/n/12 ,"whither" ,"who" ,"whod" ,"who-ever" ,"whole" ,"who'll" ,"whom
+" ,"whomever" ,"whos"
+ []
+
+
+Overfull \hbox (16.8715pt too wide) in paragraph at lines 3--4
+\OT1/cmr/m/n/12 ,"whose" ,"why" ,"widely" ,"will-ing" ,"wish" ,"with" ,"within"
+ ,"with-out" ,"won't" ,"words"
+ []
+
+[33
+
+
+
+] [34] [35]) [36]
+
+Package natbib Warning: There were undefined citations.
+
+("C:\Users\Shishir\Masters Thesis\ncsuthesis-0.4\YourName-thesis.aux"
+("C:\Users\Shishir\Masters Thesis\ncsuthesis-0.4\front.aux")
 ("C:\Users\Shishir\Masters Thesis\ncsuthesis-0.4\Chapter-1/Chapter-1.aux")
 ("C:\Users\Shishir\Masters Thesis\ncsuthesis-0.4\Chapter-2/Chapter-2.aux")
 ("C:\Users\Shishir\Masters Thesis\ncsuthesis-0.4\Chapter-3/Chapter-3.aux")
 ("C:\Users\Shishir\Masters Thesis\ncsuthesis-0.4\Chapter-4/Chapter-4.aux")
 ("C:\Users\Shishir\Masters Thesis\ncsuthesis-0.4\Chapter-5/Chapter-5.aux")
-("C:\Users\Shishir\Masters Thesis\ncsuthesis-0.4\Chapter-6/Chapter-6.aux")) ) 
+("C:\Users\Shishir\Masters Thesis\ncsuthesis-0.4\Chapter-6/Chapter-6.aux")
+("C:\Users\Shishir\Masters Thesis\ncsuthesis-0.4\Appendix-A/Appendix-A.aux")
+("C:\Users\Shishir\Masters Thesis\ncsuthesis-0.4\Appendix-A/Appendix-B.aux")) )
+ 
 Here is how much of TeX's memory you used:
- 7415 strings out of 494045
- 109714 string characters out of 3145963
- 292885 words of memory out of 3000000
- 10519 multiletter control sequences out of 15000+200000
+ 7439 strings out of 494045
+ 110894 string characters out of 3145963
+ 294051 words of memory out of 3000000
+ 10527 multiletter control sequences out of 15000+200000
  10837 words of font info for 39 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 43i,9n,45p,2560b,1185s stack positions out of 5000i,500n,10000p,200000b,50000s
- <
-C:\Users\Shishir\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tc
-rm1200.pk><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmb
-x10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx1
-2.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.
-pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pf
-b><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><
-C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/
-Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Prog
-ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program 
-Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Fi
-les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on YourName-thesis.pdf (35 pages, 225141 bytes).
+ 43i,9n,45p,6315b,1185s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Shishir\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
+tcrm1200.pk><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmb
+x12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi1
+0.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.
+pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb
+><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Pr
+ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Prog
+ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on YourName-thesis.pdf (45 pages, 242335 bytes).
 PDF statistics:
- 164 PDF objects out of 1000 (max. 8388607)
+ 198 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

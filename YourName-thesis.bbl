@@ -1,9 +1,16 @@
-\begin{thebibliography}{8}
+\begin{thebibliography}{9}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Bollen et~al.(2009)Bollen, Pepe, and
+  Mao]{DBLP:journals/corr/abs-0911-1583}
+Johan Bollen, Alberto Pepe, and Huina Mao.
+\newblock Modeling public mood and emotion: Twitter sentiment and
+  socio-economic phenomena.
+\newblock \emph{CoRR}, abs/0911.1583, 2009.
 
 \bibitem[Chakrabarti and Punera(2011)]{DBLP:conf/icwsm/ChakrabartiP11}
 Deepayan Chakrabarti and Kunal Punera.
