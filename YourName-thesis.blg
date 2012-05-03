@@ -10,10 +10,13 @@ The style file: plainnat.bst
 A level-1 auxiliary file: Appendix-A/Appendix-A.aux
 A level-1 auxiliary file: Appendix-A/Appendix-B.aux
 Database file #1: YourName-thesis.bib
+Warning--string name "april" is undefined
+--line 161 of file YourName-thesis.bib
 A bad cross reference---entry "DBLP:conf/icwsm/ChakrabartiP11"
 refers to entry "DBLP:conf/icwsm/2011", which doesn't exist
 A bad cross reference---entry "DBLP:conf/icwsm/OConnorKA10"
 refers to entry "DBLP:conf/icwsm/2010", which doesn't exist
 Warning--I didn't find a database entry for "DBLP:conf/icwsm/2011"
 Warning--I didn't find a database entry for "DBLP:conf/icwsm/2010"
+Warning--empty year in stanfordcorenlplink
 (There were 2 error messages)

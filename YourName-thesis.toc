@@ -2,30 +2,30 @@
 \contentsline {chapter}{List of Figures}{vii}
 \contentsline {chapter}{\numberline {1}Introduction}{1}
 \contentsline {section}{\numberline {1.1}Twitter}{1}
-\contentsline {section}{\numberline {1.2}Goals}{2}
-\contentsline {section}{\numberline {1.3}Contribution}{3}
-\contentsline {chapter}{\numberline {2}Related Work}{4}
-\contentsline {section}{\numberline {2.1}Twitter Classification}{4}
-\contentsline {section}{\numberline {2.2}Twitter Summarization}{6}
-\contentsline {chapter}{\numberline {3}Preliminary Development}{10}
-\contentsline {section}{\numberline {3.1}Data Collection}{10}
-\contentsline {section}{\numberline {3.2}Data Preparation}{11}
-\contentsline {section}{\numberline {3.3}Data Processing}{12}
-\contentsline {section}{\numberline {3.4}Classification}{13}
-\contentsline {section}{\numberline {3.5}Clustering}{13}
-\contentsline {chapter}{\numberline {4}System Development}{15}
-\contentsline {section}{\numberline {4.1}Computing Features}{15}
-\contentsline {section}{\numberline {4.2}Clustering Algorithm}{16}
-\contentsline {section}{\numberline {4.3}Cluster Summary}{19}
-\contentsline {chapter}{\numberline {5}Evaluation}{20}
-\contentsline {section}{\numberline {5.1}Experiment Setup}{20}
-\contentsline {section}{\numberline {5.2}Experiment Description}{23}
-\contentsline {section}{\numberline {5.3}Results}{24}
-\contentsline {chapter}{\numberline {6}Conclusion}{26}
-\contentsline {section}{\numberline {6.1}Modified KMeans Discussion}{26}
-\contentsline {section}{\numberline {6.2}Future Work}{27}
-\contentsline {chapter}{References}{29}
-\contentsline {chapter}{Appendices}{31}
+\contentsline {section}{\numberline {1.2}Goals}{3}
+\contentsline {section}{\numberline {1.3}Contribution}{4}
+\contentsline {chapter}{\numberline {2}Related Work}{5}
+\contentsline {section}{\numberline {2.1}Twitter Classification}{5}
+\contentsline {section}{\numberline {2.2}Twitter Summarization}{7}
+\contentsline {chapter}{\numberline {3}Preliminary Development}{11}
+\contentsline {section}{\numberline {3.1}Data Collection}{11}
+\contentsline {section}{\numberline {3.2}Data Preparation}{12}
+\contentsline {section}{\numberline {3.3}Data Processing}{13}
+\contentsline {section}{\numberline {3.4}Classification}{14}
+\contentsline {section}{\numberline {3.5}Clustering}{15}
+\contentsline {chapter}{\numberline {4}System Development}{18}
+\contentsline {section}{\numberline {4.1}Computing Features}{18}
+\contentsline {section}{\numberline {4.2}Clustering Algorithm}{19}
+\contentsline {section}{\numberline {4.3}Cluster Summary}{22}
+\contentsline {chapter}{\numberline {5}Evaluation}{23}
+\contentsline {section}{\numberline {5.1}Experiment Setup}{23}
+\contentsline {section}{\numberline {5.2}Experiment Description}{26}
+\contentsline {section}{\numberline {5.3}Results}{27}
+\contentsline {chapter}{\numberline {6}Conclusion}{29}
+\contentsline {section}{\numberline {6.1}Modified KMeans Discussion}{29}
+\contentsline {section}{\numberline {6.2}Future Work}{30}
+\contentsline {chapter}{References}{32}
+\contentsline {chapter}{Appendices}{34}
  \renewcommand {\cftchappresnum }{Appendix } \renewcommand {\cftchapnumwidth }{\appendixwidth } \renewcommand {\cftchapfont }{\cftsecfont } \setlength {\cftbeforechapskip }{\cftbeforesecskip } \setlength {\cftchapindent }{\cftsecindent } \renewcommand {\cftchappagefont }{\cftchapfont } \setlength {\cftsecindent }{\cftsubsecindent } \addtolength {\cftsubsecindent }{\cftsecnumwidth } \setcounter {tocdepth}{\c@ncsu@appendixtocdepth } 
-\contentsline {chapter}{\numberline {A}Example: Mitt Romney}{32}
-\contentsline {chapter}{\numberline {B}Stop Word List}{33}
+\contentsline {chapter}{\numberline {A}Example: Mitt Romney}{35}
+\contentsline {chapter}{\numberline {B}Stop Word List}{36}

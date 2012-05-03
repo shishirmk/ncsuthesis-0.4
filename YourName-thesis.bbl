@@ -1,9 +1,21 @@
-\begin{thebibliography}{9}
+\begin{thebibliography}{13}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Barzilay et~al.(1999)Barzilay, McKeown, and
+  Elhadad]{Barzilay:1999:IFC:1034678.1034760}
+Regina Barzilay, Kathleen~R. McKeown, and Michael Elhadad.
+\newblock Information fusion in the context of multi-document summarization.
+\newblock In \emph{Proceedings of the 37th annual meeting of the Association
+  for Computational Linguistics on Computational Linguistics}, ACL '99, pages
+  550--557, Stroudsburg, PA, USA, 1999. Association for Computational
+  Linguistics.
+\newblock ISBN 1-55860-609-3.
+\newblock \doi{10.3115/1034678.1034760}.
+\newblock URL \url{http://dx.doi.org/10.3115/1034678.1034760}.
 
 \bibitem[Bollen et~al.(2009)Bollen, Pepe, and
   Mao]{DBLP:journals/corr/abs-0911-1583}
@@ -17,6 +29,11 @@ Deepayan Chakrabarti and Kunal Punera.
 \newblock Event summarization using tweets.
 \newblock In \emph{ICWSM}, 2011.
 
+\bibitem[Group()]{stanfordcorenlplink}
+The Stanford Natural Language~Processing Group.
+\newblock A suite of core nlp tools.
+\newblock URL \url{http://nlp.stanford.edu/software/corenlp.shtml}.
+
 \bibitem[Gupta et~al.(2010)Gupta, Menon, and
   Babbar]{Gupta:2010:DNC:1798337.1798433}
 Ujjwal~Das Gupta, Vinay Menon, and Uday Babbar.
@@ -28,6 +45,13 @@ Ujjwal~Das Gupta, Vinay Menon, and Uday Babbar.
 \newblock ISBN 978-0-7695-3977-5.
 \newblock \doi{10.1109/ICMLC.2010.47}.
 \newblock URL \url{http://dx.doi.org.prox.lib.ncsu.edu/10.1109/ICMLC.2010.47}.
+
+\bibitem[Hall et~al.(2009)Hall, Frank, Holmes, Pfahringer, Reutemann, and
+  Witten]{DBLP:journals/sigkdd/HallFHPRW09}
+Mark Hall, Eibe Frank, Geoffrey Holmes, Bernhard Pfahringer, Peter Reutemann,
+  and Ian~H. Witten.
+\newblock The weka data mining software: an update.
+\newblock \emph{SIGKDD Explorations}, 11\penalty0 (1):\penalty0 10--18, 2009.
 
 \bibitem[Nichols et~al.(2012)Nichols, Mahmud, and
   Drews]{Nichols:2012:SSE:2166966.2166999}
@@ -92,5 +116,11 @@ Bharath Sriram, Dave Fuhry, Engin Demir, Hakan Ferhatosmanoglu, and Murat
 \newblock ISBN 978-1-4503-0153-4.
 \newblock \doi{10.1145/1835449.1835643}.
 \newblock URL \url{http://doi.acm.org/10.1145/1835449.1835643}.
+
+\bibitem[Twitter(2012)]{twitterstats}
+Twitter.
+\newblock A blog post about twitter statistics and spammers, 2012.
+\newblock URL
+  \url{http://blog.twitter.com/2012/04/shutting-down-spammers.html}.
 
 \end{thebibliography}
